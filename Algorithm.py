@@ -93,6 +93,9 @@ def output_min_number():
     print(l)
     pass
 
+# Algo_6 Fibonacci sequence
+
+
 
 output_min_number()            
 # judge_day_in_year()
