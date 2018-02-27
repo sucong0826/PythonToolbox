@@ -6,7 +6,8 @@ import itchat
 
 @itchat.msg_register(itchat.content.TEXT)
 def print_content(msg):
-     return 'I\'m busy now...Please leave me a msg.'
+     print(msg['Text'])
+     return 'Please leave me a message...'
 
 itchat.auto_login(hotReload=True)
 itchat.run()
